@@ -1,0 +1,76 @@
+body {
+  background-color: whitesmoke;
+}
+
+ul.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards li {
+    padding: 0px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.card {
+  // background-color: #715555;
+  background: #292c2f;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display:inline-block;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+  transform: rotate3d(1, 1, 0, 0deg);
+  text-align: center;
+}
+div.card:hover {
+    background-position: bottom center;
+    margin: 0 auto;
+    box-shadow: -3px 3px 0px 3px #333, -30px 30px 15px rgba(0, 0, 0, .4);
+    transform: rotate3d(1, 1, 0, 40deg);
+    transition: all .4s;
+}
+
+// div.card h1{
+//     margin-top: 10px;
+//     margin-bottom: 0px;
+// }
+div.card .helper{
+    display: inline-block;
+    // height: 100%;
+    vertical-align: middle;
+}
+
+div.card {
+    text-align: center;
+}
+// div.card h1,div.card div{
+//     display: inline-block;
+// }
+div.card h1{
+    // position: absolute;
+    height: 10%
+}
+
+
+.card h1 {
+  position: relative;
+  transition: all .4s;
+  font-family: 'Anton';
+  text-align:center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+div.card:hover h1 {
+  transform: rotate3d(1, 1, 0, 0deg);
+  transform: rotate3d(1, 1, 0, 20deg);
+}

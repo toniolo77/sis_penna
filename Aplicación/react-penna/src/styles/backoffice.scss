@@ -1,0 +1,115 @@
+@import "_variables";
+
+table{
+
+	white-space: normal !important;
+	button{
+		margin-top: 5px;
+	}
+}
+.react-bs-table table{
+	overflow-x: auto !important;
+}
+.react-bs-table table td{
+	white-space: normal !important;
+}
+
+.t-ok,.t-success{
+	color:$ok !important;
+}
+.t-warning{
+	color: $warning !important;
+}
+.t-orange{
+	color:$orange !important;
+}
+.t-error,.t-fail{
+	color:$error !important;
+}
+
+.center{
+	float : none !important;
+	margin: 0 auto;
+}
+.gral-container{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+div.btn-form{
+	margin-top: 20px;
+	text-align:center;
+}
+div.btn-form button{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.zIndez0{
+	z-index: 0 !important;
+}
+.react-bs-table {
+	background: white;
+}
+
+
+.clear {clear:both;}
+
+table td .botonera button{
+	margin:0px 5px;
+}
+
+div.botonera{
+	display        : flex;
+	justify-content: center;
+}
+
+.d-inline{
+	display: inline-block;
+}
+
+.msj_error{
+	color: $error;
+	font-size: 13px;
+	font-weight: bold;
+}
+.alert-penna{
+	position: sticky;
+    z-index : 1051;// para que quede arriba del modal(1050)
+    width   : 100%;
+    top     : 0px;
+	font-weight: bold;
+}
+
+div.modal{
+	top:25px  !important;
+}
+
+td.invalid input{
+	border: 1px solid $error;
+}
+input.invalid{
+	border: 1px solid $error;
+}
+input.invalid:focus{
+	border-color: $error;
+  	box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(210, 58, 55, 0.58);
+  	outline       : 0 none;
+}
+#toast-container{
+	.toast-title{
+		font-size: 15px;
+		overflow: visible;
+	}
+	.toast-message{
+		font-size: 13px;
+		overflow: visible;
+	}
+	.toast-error .toast-title{
+		color:$error;
+	}
+
+}
