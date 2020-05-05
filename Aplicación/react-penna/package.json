@@ -13,7 +13,7 @@
   "author": "Franco Toniolo - Matías Morón",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.19.2",
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.24.1",
